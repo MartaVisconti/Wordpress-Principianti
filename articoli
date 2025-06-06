@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Articoli - Corso WordPress per Principianti</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f6f6f6;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #0055a5;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 12px;
+    }
+    a.article-link {
+      color: #0055a5;
+      text-decoration: none;
+    }
+    a.article-link:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      background: #003366;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>I miei Articoli</h1>
+  <p>Contenuti scritti durante il corso WordPress per Principianti</p>
+</header>
+
+<nav>
+  <a href="index.html">🏠 Home</a>
+  <a href="chi-siamo.html">👥 Chi siamo</a>
+  <a href="articoli.html">📝 Articoli</a>
+</nav>
+
+<main>
+  <h2>Elenco degli articoli</h2>
+  <ul>
+    <li><a class="article-link" href="https://appartamentoperstudenti.com/come-usare-wordpress-guida-completa-principianti/" target="_blank">1. Come usare WordPress: guida completa per chi parte da zero</a></li>
+    <li><a class="article-link" href="https://appartamentoperstudenti.com/scegliere-tema-wordpress/" target="_blank">2. Come scegliere tema WordPress: guida pratica per principianti</a></li>
+    <li><a class="article-link" href="https://appartamentoperstudenti.com/installare-plugin-wordpress/" target="_blank">3. Come Installare un Plugin su WordPress: Guida Passo Passo</a></li>
+    <li><a class="article-link" href="https://appartamentoperstudenti.com/personalizzare-menu-grafica-wordpress/" target="_blank">4. Come personalizzare il menu e la grafica del tuo sito WordPress</a></li>
+    <li><a class="article-link" href="https://appartamentoperstudenti.com/personalizzare-menu-wordpress/" target="_blank">5. Come personalizzare il menu di WordPress: guida per principianti</a></li>
+    <li><a class="article-link" href="https://appartamentoperstudenti.com/scrivere-articolo-wordpress/" target="_blank">6. Come scrivere il tuo primo articolo su WordPress</a></li>
+  </ul>
+</main>
+
+<footer>
+  © 2025 Marta Visconti – Tutti i diritti riservati
+</footer>
+
+</body>
+</html>
